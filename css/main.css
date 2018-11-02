@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Mali:400,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900');
+@import url(./slider-plus-navbar.css);
+@import url(./slider-plus-product.css);
+@import url(./slider-plus-info.css);
+@import url(./slider-plus-workflow.css);
+@import url(./slider-plus-case.css);
+@import url(./slider-plus-slide-module.css);
+@import url(./slider-plus-hand-pushing.css);
+@import url(./slider-plus-time-lapse.css);
+@import url(./slider-plus-review-videos.css);
+@import url(./slider-plus-comments.css);
+
+:root {
+  --black: #2B2D2B;
+  --turqouise: #1CAFAB;
+  --red: #DE5555;
+  --white: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#eee;;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*PRODUCT IMAGE & VIDEO*/
+/*PRODUCT INFO*/
+/*PRODUCT WORKFLOW PHOTO*/
+/*PRODUCT CASE*/
+/*SLIDE MODULE*/
+/*HAND PUSHING*/
+/*TIME LAPSE VIDEOS*/
+/*REVIEWS*/
+/*SCENES*/

@@ -1,0 +1,30 @@
+
+.workflow__photo {
+  display: grid;
+  background-color: #eee;
+  font-weight: 200;
+  padding-bottom: 60px;
+}
+
+.workflow {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.workflow img {
+  width: 80%;
+}
+
+.workflow__title {
+  font-size: 2rem;
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 200;
+  padding-bottom: 60px;
+}
+
+.workflow__title span {
+  font-weight: 500;
+}

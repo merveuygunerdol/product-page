@@ -1,0 +1,68 @@
+
+.time-lapse {
+  background-color: rgb(20, 21, 21);
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.time-lapse__title {
+  grid: 1 / -1;
+  color: var(--white);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.time-lapse__desc {
+  display: grid;
+  background-color: rgb(20, 21, 21);
+  grid-template-columns:  repeat(auto-fit, minmax(250px, 600px));
+  justify-content: center;
+}
+
+.time-lapse__info {
+  display: grid;
+  background-color: var(--black);
+  justify-content: center;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: rgb(234, 234, 234);
+  font-weight: 200;
+}
+
+.lapse-title {
+  font-size: 1.70rem;
+  color: rgb(234, 234, 234);
+  font-weight: 500;
+  padding-top: 15%;
+  padding-bottom: 3%;
+}
+
+.lapse-desc {
+  line-height: 1.90rem;
+  font-weight: 300;
+  align-content: center;
+  display: grid;
+  padding-bottom: 15%;
+}
+
+.time-lapse__video iframe {
+  background-color: var(--black);
+  padding-top: 15%;
+  width: 100%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.time-lapse__video {
+  background-color: var(--black);
+  padding-bottom: 15%;
+}
+
+.time-lapse--blank {
+  padding-top: 2.50%;
+}

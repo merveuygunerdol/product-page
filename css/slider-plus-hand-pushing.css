@@ -1,0 +1,79 @@
+
+.hand-pushing-intro {
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.hand-pushing__title {
+  grid: 1 / -1;
+  color: var(--black);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 40px;
+  padding-top: 80px;
+  font-weight: 200;
+}
+
+.hand-pushing {
+  display: grid;
+  background-color:#eee;
+  grid-template-columns:  repeat(auto-fit, minmax(250px, 600px));
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.hand-pushing__title span {
+  font-weight: 500;
+}
+
+@media screen and (max-width:650px) {
+  .hand-pushing {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+
+.hand-pushing-info-1 {
+  display: grid;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding-left: 13%;
+  padding-right: 13%;
+}
+
+.hand-pushing__desc {
+  display: grid;
+  grid-template-columns: auto-fit;
+  grid-template-areas:
+  "push-title"
+  "push-desc";
+}
+
+.hand-pushing-info-2 {
+  background-color: white;
+  width: 100%;
+}
+
+.hand-pushing-info-2 iframe {
+  background-color: var(--white);
+  width: 100%;
+}
+
+.push-title {
+  grid-area: push-title;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.push-desc {
+  display: grid;
+  grid-area: push-desc;
+  line-height: 1.90rem;
+  font-weight: 300;
+  align-content: center;
+}

@@ -1,0 +1,33 @@
+
+.reviews {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.reviews__title {
+  grid: 1 / -1;
+  color: var(--black);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 40px;
+  padding-top: 80px;
+  font-weight: 300;
+}
+
+.reviews__title  span {
+  font-weight: 500;
+}
+
+.reviews__videos {
+  display: grid;
+  grid-template-columns:  repeat(auto-fit, minmax(250px, 400px));
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,40 @@
+
+.border-box {
+  padding-top: 20px;
+  background-color: white;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+@media screen and (max-width:650px) {
+  .border-box {
+    display: none;
+  }
+}
+
+.border-box-1 {
+  border-top: 1px solid #acacac;
+}
+
+.scenes {
+  display: grid;
+  grid-template-columns:  repeat(auto-fit, minmax(250px, 400px));
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 20px;
+  grid-gap: 5px;
+  padding-top: 80px;
+}
+
+.scene-1 img {
+  opacity: 0.5;
+  height: 60px;
+}
+
+.comment-1 p {
+  font-weight: 300;
+  line-height: 1.80rem;
+  padding-top: 20px;
+}
